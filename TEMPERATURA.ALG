@@ -5,11 +5,13 @@ Algoritmo "temperatura"
 // Autor(a)    : Jovanna
 // Data atual  : 28/10/2026
 Var
-
+celsius, fahrenheit : real
 
 
 Inicio
-
+escreval("Digite a temperatura em graus celsius (°C): ")
+leia(celsius)
+escreval("A temperatura em fahrenheit é: ", (celsius * 9 / 5) + 32, "°F")
 
 
 Fimalgoritmo
